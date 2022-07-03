@@ -1,0 +1,94 @@
+body {
+  background:rgb(18, 32, 239);
+  font-family:sans-serif; 
+  height:100px;
+  }
+  
+  .wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color:white;
+  text-align:center;
+  }
+  
+  h1, h2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+  }
+  
+  #seconds, #ms, #min{
+    font-size:2em;
+  }
+  
+  button{
+    border-radius: 5px;
+    background: rgb(240, 4, 213);
+    color:white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2rem;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+  }
+  
+  #button-stop button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    transition: color 0.5s;
+  }
+  
+  #button-start button[type="submit"]{
+    background: transparent;
+    font-size: 0.95rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    transition: color 0.5s;
+  }
+  
+  #button-reset button[type="submit"]{
+    background: transparent;
+    font-size: 0.95rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    transition: color 0.5s;
+  }
+  
+  #button-start:hover{
+    background: lightskyblue;
+    color: gray;
+  }
+  
+  #button-start{
+    transition: color 0.5s;
+  }
+  
+  #button-stop{
+    transition: color 0.5s;
+  }
+  
+  #button-stop:hover{
+    background: lightskyblue;
+    color: gray;
+  }
+  
+  #button-reset{
+    transition: color 0.5s;
+  }
+  
+  #button-reset:hover{
+    background: lightskyblue;
+    color: gray;
+  }
+  
